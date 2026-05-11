@@ -5,7 +5,7 @@ export default {
 
 export const AtmosphericModels = () => `
   <div class="product-block">
-    <img src="/vendor/datahub/images/homepage/atmospheric-model-data.jpg" alt="Atmospheric - Data visualisation">
+    <img src="vendor/datahub/images/homepage/atmospheric-model-data.jpg" alt="Atmospheric - Data visualisation">
     <div>
       <h2>Atmospheric models</h2>
       <p>We offer GRIB2 data on a range of products that are sub-set by region, parameter, levels, time steps and model run.</p>
