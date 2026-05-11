@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="33 36 142 130" version="1.1" fill="none" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+
+    <defs>
+        <mask id="maskThermometer">
+            <rect width="180" height="180" fill="white" />
+            <!-- Thermometer mask -->
+            <path d="M145.4 54.6a10.9 10.9 0 0 0-10.9 10.9v47.25a25.46 25.46 0 1 0 21.82 0V65.45a10.9 10.9 0 0 0-10.92-10.9z" fill="black" />
+        </mask>
+    </defs>
+
+    <!-- Cloud with mask -->
+    <path d="M72.72 152.72c-20 0-36.36-16.36-36.36-36.36 0-15.26 9.96-28.36 24.02-33.64 5.18-18.2 22.2-31.66 42.02-31.66 19.82 0 36.24 12.72 41.12 30.36 14.9 2.54 26.92 15.64 26.92 32.4 0 18.18-14.54 32.72-32.72 32.72H72.72z" mask="url(#maskThermometer)" />
+
+    <!-- Thermometer -->
+    <path d="M145.4 54.6a10.9 10.9 0 0 0-10.9 10.9v47.25a25.46 25.46 0 1 0 21.82 0V65.45a10.9 10.9 0 0 0-10.92-10.9z" />
+    <line x1="145.4" y1="72.72" x2="145.4" y2="116.36" />
+
+</svg>
+

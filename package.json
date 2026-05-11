@@ -1,0 +1,29 @@
+{
+  "name": "wdh-design-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "deploy:gh-pages": "echo 'Deployment is handled by GitHub Actions on push to main'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "homepage": ".",
+  "devDependencies": {
+    "storybook": "^10.3.6",
+    "@storybook/html-vite": "^10.3.6",
+    "@chromatic-com/storybook": "^5.1.2",
+    "@storybook/addon-vitest": "^10.3.6",
+    "@storybook/addon-a11y": "^10.3.6",
+    "@storybook/addon-docs": "^10.3.6",
+    "vitest": "^4.1.5",
+    "playwright": "^1.59.1",
+    "@vitest/browser-playwright": "^4.1.5",
+    "@vitest/coverage-v8": "^4.1.5"
+  }
+}
